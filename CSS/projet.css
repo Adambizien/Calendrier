@@ -1,0 +1,159 @@
+/*couleur de fond*/
+body{
+    background-color: rgba(73, 194, 133, 0.397);
+}
+/*horloge style*/
+#horloge{
+    text-align: center;
+    background-color: white;
+    margin-left: 20cm;
+    padding: 10px;
+}
+/*menu de connexion déconnexion et profil */
+#head{
+margin-left: 3cm;
+margin-right: 3cm;
+padding: 20px;
+background-color: white;
+text-align: center;
+}
+/*style du block de inscription*/
+#inscription{
+   text-align: center;
+   border-style: solid;
+   margin-right: 8cm;
+   margin-left: 8cm;
+   padding-top: 10px;
+   padding-bottom: 20px;
+   backdrop-filter: blur(5px);
+}
+h1{
+	text-align: center;
+}
+/*styles des erreurs */
+#error{
+	color: red;
+	font-size: 200%;
+	margin-right: 8cm;
+    margin-left: 8cm;
+    margin-top: 10px;
+    text-align: center;
+	border-style: solid;
+	border-color: red; 
+}
+.sam{
+	background-color: pink;
+}
+.dim{
+	background-color: red;
+}
+.cal_calendrier{
+    border:1px solid black;
+    padding:1px;
+    backdrop-filter: blur(5px);
+    width:250px;
+    margin:auto;
+    height:200px;
+}
+.cal_calendrier th {
+    border:1px solid black;
+    backdrop-filter: blur(5px);
+}
+.cal_calendrier td{
+	color: black;
+    text-decoration: underline;
+    border:1px solid black;
+    backdrop-filter: blur(5px);
+    text-align:center;
+}
+
+.cal_aujourdhui{
+	background-color: red;
+}
+.cal_jours_av_ap{
+    background-color: gray;
+}
+.date{
+    text-align: center;
+    font-size: 150%;
+    margin-bottom: 20px;
+}
+.cal_weekend{
+   background-color:orange;
+}
+
+.change{
+    text-align: center;
+}
+/*block événements:*/
+#month_event{
+    line-height:1cm;
+    text-align: center;
+    border-style: groove;
+    border-color: black;
+    border-spacing: 20px;
+    margin-left: 300px;
+   margin-right: 300px;
+    padding: 0px;
+    backdrop-filter: blur(5px);
+}
+/*block événements d'aujourd'hui*/
+#block_today{
+	line-height:1cm;
+    text-align: center;
+    border-style: groove;
+    border-color: black;
+    border-spacing: 20px;
+    margin-left: 300px;
+   margin-right: 300px;
+    padding: 0px;
+    backdrop-filter: blur(5px);
+}
+/*block ajouter un événement*/
+.add_event{
+	line-height:1cm;
+    text-align: center;
+    border-style: groove;
+    border-color: black;
+    border-spacing: 20px;
+    margin-left: 300px;
+   margin-right: 300px;
+    padding: 0px;
+    backdrop-filter: blur(5px);
+}
+.cal_ferier{
+	background-color: pink;
+}
+.cal_event{
+	background-color: aqua;
+}
+li{
+	color:black;
+}
+a{
+	color: black;
+}
+h2{
+	text-align: center;
+}
+.conteneur{
+   display: flex;
+}
+.m{
+    flex-grow: 1;
+    border-style: groove;
+    border-color: black;
+    border-spacing: 20px;
+    backdrop-filter: blur(5px);
+}
+.number{
+    line-height:1cm;
+    text-align: center;
+    border-style: groove;
+    border-color: black;
+    border-spacing: 20px;
+    margin-left: 300px;
+    margin-right: 300px;
+    padding: 0px;
+    backdrop-filter: blur(5px); 
+}
